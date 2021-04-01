@@ -1,10 +1,10 @@
-<!DOCTYPE html>
-<html lang = "en">
-  <head>
-    <title>Graduates Data</title>
-    <link rel="stylesheet" type="text/css" href="mystyle.css">
-  </head>
-  <body>
+{% extends "layout.html" %}
+
+{% set active_page = "home" %}
+
+{% block title %}Home{% endblock %}
+
+{% block content %}
     <div id = "bar">
       <h1>CORGIS Graduates Data Findings</h1>
     </div>
@@ -25,5 +25,4 @@
         <li><a href="https://www.bls.gov/cps/faq.htm#:~:text=People%20with%20jobs%20are%20employed,not%20in%20the%20labor%20force.">https://www.bls.gov/cps/faq</a></li>
       </ol>
     </div>
-  </body>
-</html>
+{% endblock %}
