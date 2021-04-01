@@ -5,10 +5,6 @@ h1 {
 .italic {
   font-style: italic;
 }
-#break {
-  height: 100px;
-}
-
 #sources {
   position: absolute;
   bottom: 10px;
