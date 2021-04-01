@@ -2,6 +2,9 @@ h1 {
   text-align: center;
 }
 
+.marginL {
+  margin-left: 10px; 
+}
 .italic {
   font-style: italic;
 }
