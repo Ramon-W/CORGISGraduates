@@ -14,7 +14,9 @@ h1 {
   background-color: #2e2e2e;
   border-bottom: 8px solid black;
 }
-
+.italic {
+  font-style: italic;
+}
 #break {
   height: 100px;
 }
