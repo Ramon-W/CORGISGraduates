@@ -12,7 +12,7 @@
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+    <nav class="navbar navbar-expand-md bg-success navbar-dark">
       <a class="navbar-brand" href="#">CORGIS Graduates Data</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
         <span class="navbar-toggler-icon"></span>
@@ -28,6 +28,15 @@
           <li {% if active_page == "page2" %} class="nav-item active"{% else %}class="nav-item"{% endif %}>
             <a class="nav-link" href="/p2">Something Else</a>
           </li>    
+          <li {% if active_page == "g1" or "g2" %} class="nav-item dropdown active"{% else %}class="nav-item dropdown"{% endif %}>
+            <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+              Data Graphs
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="/g1">Data Graph</a>
+              <a class="dropdown-item" href="/g2">Link 2</a>
+            </div>
+          </li>
         </ul>
       </div>  
     </nav>
