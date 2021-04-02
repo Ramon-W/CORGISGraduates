@@ -11,7 +11,3 @@ body {
 .italic {
   font-style: italic;
 }
-#sources {
-  position: absolute;
-  bottom: 10px;
-}
