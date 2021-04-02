@@ -6,6 +6,7 @@ body {
 }
 .marginL {
   margin-left: 30px; 
+  margin-top: 15px;
 }
 .italic {
   font-style: italic;
