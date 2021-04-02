@@ -1,0 +1,14 @@
+{% extends "layout.html" %}
+
+{% block title %}Major{% endblock %}
+
+{% block content %}
+<p> {{ statefact }} </p>
+<p> {{ countyfact }} </p>
+<form action="/responseTwo">
+  <label for = "county">Choose a County:</label>
+  <select name="county" id="county">
+    {{ responseTwo }}
+  <input type="submit" value="Get another fun fact!">
+</form>
+{% endblock %}
