@@ -1,15 +1,17 @@
 {% extends "layout.html" %}
 
+{% set active_page = "page1" %}
+
 {% block title %}Major{% endblock %}
 
 {% block content %}
 <p> {{ firstfact }} </p>
 <p> {{ secondfact }} </p>
 <p> {{ thirdfact }} </p>
-<form action="/responseTwo">
+<form action="/response">
   <label for = "county">Choose a Major (2015):</label>
   <select name="county" id="county">
     {{ responseTwo }}
-  <input type="submit" value="Get another fun fact!">
+  <input type="submit" value="Get Data">
 </form>
 {% endblock %}
