@@ -3,10 +3,11 @@
 {% block title %}Major{% endblock %}
 
 {% block content %}
-<p> {{ statefact }} </p>
-<p> {{ countyfact }} </p>
+<p> {{ firstfact }} </p>
+<p> {{ secondfact }} </p>
+<p> {{ thirdfact }} </p>
 <form action="/responseTwo">
-  <label for = "county">Choose a County:</label>
+  <label for = "county">Choose a Major (2015):</label>
   <select name="county" id="county">
     {{ responseTwo }}
   <input type="submit" value="Get another fun fact!">
